@@ -1,0 +1,23 @@
+2019-05-20 21:37:40.313 -03 [57912] LOG:  listening on IPv6 address "::1", port 5432
+2019-05-20 21:37:40.313 -03 [57912] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-05-20 21:37:40.314 -03 [57912] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-05-20 21:37:40.327 -03 [57913] LOG:  database system was shut down at 2019-05-20 21:37:34 -03
+2019-05-20 21:37:40.330 -03 [57912] LOG:  database system is ready to accept connections
+2019-05-20 21:43:38.750 -03 [58413] LOG:  could not bind IPv6 address "::1": Address already in use
+2019-05-20 21:43:38.750 -03 [58413] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-05-20 21:43:38.751 -03 [58413] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2019-05-20 21:43:38.751 -03 [58413] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2019-05-20 21:43:38.751 -03 [58413] WARNING:  could not create listen socket for "localhost"
+2019-05-20 21:43:38.751 -03 [58413] FATAL:  could not create any TCP/IP sockets
+2019-05-20 21:43:38.751 -03 [58413] LOG:  database system is shut down
+2019-05-20 21:43:40.356 -03 [57912] LOG:  could not open file "postmaster.pid": No such file or directory
+2019-05-20 21:43:40.357 -03 [57912] LOG:  performing immediate shutdown because data directory lock file is invalid
+2019-05-20 21:43:40.357 -03 [57912] LOG:  received immediate shutdown request
+2019-05-20 21:43:40.357 -03 [57912] LOG:  could not open file "postmaster.pid": No such file or directory
+2019-05-20 21:43:40.357 -03 [57917] WARNING:  terminating connection because of crash of another server process
+2019-05-20 21:43:40.357 -03 [57917] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2019-05-20 21:43:40.357 -03 [57917] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2019-05-20 21:43:40.357 -03 [57918] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2019-05-20 21:43:40.361 -03 [57912] LOG:  database system is shut down
+2019-05-20 21:43:48.472 -03 [58449] FATAL:  lock file "postmaster.pid" already exists
+2019-05-20 21:43:48.472 -03 [58449] HINT:  Is another postmaster (PID 58424) running in data directory "/usr/local/var/postgres"?
